@@ -4,8 +4,22 @@
 
 // général (html, body, input, btn, media queries)
 .body {
-    width: 100%;
     background-image: url("../webroot/assets/img/home/background-home-desktop.jpg");
     background-size: cover;
-    color: #fff;
+    color: $first;
+    margin: 50px 0 50px 40px;
+}
+// ----------------- FONTS -----------------
+.barlowFont {
+    font-family: $text-font;
+    font-weight: $regular-weight;
+}
+.letterSpacing {
+    letter-spacing: 5px;
+}
+.barlowFont {
+    font-family: $titles-font;
+}
+.boldText {
+    font-weight: bolder;
 }
