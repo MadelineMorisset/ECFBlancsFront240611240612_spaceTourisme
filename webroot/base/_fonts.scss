@@ -1,0 +1,21 @@
+/* Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* Barlow Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); /* Bellefair */
+
+/* Fonts definition */
+$titles-font: 'Bellefair'; /* Titles */
+$text-font: 'Barlow Condensed'; /* Text */
+
+/* Fonts weight */
+$regular-weight:   400; /* Regular text */
+$medium-weight:   500; /* Medium text */
+
+
+/* Fonts size : titles */
+$h1: 50px;
+$h1-article: 64px; 
+$h2: 40px;
+
+/* Fonts size : text */
+$surtitle-size: 50px;
+$content-size: 18px;
