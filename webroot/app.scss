@@ -3,3 +3,9 @@
 
 
 // général (html, body, input, btn, media queries)
+.body {
+    width: 100%;
+    background-image: url("../webroot/assets/img/home/background-home-desktop.jpg");
+    background-size: cover;
+    color: #fff;
+}
