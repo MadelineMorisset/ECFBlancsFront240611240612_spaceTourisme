@@ -132,6 +132,7 @@ table {
 /* Titles */
 /* Text */
 /* Fonts weight */
+/* ExtraLight text */
 /* Regular text */
 /* Medium text */
 /* Fonts size : titles */
@@ -266,6 +267,7 @@ table {
 /* Titles */
 /* Text */
 /* Fonts weight */
+/* ExtraLight text */
 /* Regular text */
 /* Medium text */
 /* Fonts size : titles */
@@ -317,9 +319,49 @@ table {
   .menu-selected {
     border-bottom: #fff solid 4px; }
 
+.main {
+  margin: 500px 50px 200px 150px;
+  display: flex; }
+
+.introductionContainer {
+  width: 45%;
+  line-height: 50px; }
+  .introductionContainer-surtitle {
+    font-size: 40px; }
+  .introductionContainer-title {
+    margin: 100px 0 140px 0;
+    font-size: 180px; }
+  .introductionContainer-content {
+    font-weight: 200;
+    font-size: 30px; }
+
+.exploreContainer {
+  width: 50%; }
+
+.animationContainer {
+  width: 100%;
+  height: 100%; }
+  .animationContainer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 85%;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; }
+    .animationContainer-button--content {
+      font-size: 30px;
+      text-align: center;
+      color: #9a9b9f; }
+
 .body {
   background-image: url("../webroot/assets/img/home/background-home-desktop.jpg");
   background-size: cover;
+  position: sticky;
   color: #fff;
   margin: 50px 0 50px 40px; }
 

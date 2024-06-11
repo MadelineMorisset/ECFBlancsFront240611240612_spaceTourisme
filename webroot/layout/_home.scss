@@ -58,3 +58,51 @@
 }
 
 // ----------------- MAIN -----------------
+.main {
+    margin: 500px 50px 200px 150px;
+    display: flex;
+}
+// ----------------- Left columne -----------------
+.introductionContainer {
+    width: 45%;
+    line-height: 50px;
+    &-surtitle {
+        font-size: $surtitle-size;
+    }
+    &-title {
+        margin: 100px 0 140px 0;
+        font-size: $h1-article;
+    }
+    &-content {
+        font-weight: $extraLight-weight;
+        font-size: $content-size;
+    }
+}
+// ----------------- Right columne -----------------
+.exploreContainer {
+    width: 50%;
+}
+.animationContainer {
+    width: 100%;
+    height: 100%;
+
+    &-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 85%;
+        border-radius: 50%;
+        background-color: $first;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+
+        &--content {
+            font-size: $content-size;
+            text-align: center;
+            color: $fourth;
+        }
+    }
+}
